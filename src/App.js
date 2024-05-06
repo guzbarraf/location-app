@@ -47,7 +47,7 @@ function App() {
   }
 
   const getPostalCode = (latitude, longitude) => {
-    const apiKey = 'AIzaSyDF5enizvqTs-g2pDCbB4IvfFCcPX34t5E';
+    const apiKey = process.env.REACT_APP_API_KEY;
     const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${apiKey}`;
 
     fetch(url)
