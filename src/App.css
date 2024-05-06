@@ -35,6 +35,25 @@
   margin-top: 15px;
 
   display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  & > div {
+    padding: 5px;
+  }
+
+  & > div:nth-child(1) {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+.postal-code-wrapper {
+  margin-top: 15px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
