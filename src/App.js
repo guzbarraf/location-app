@@ -92,7 +92,7 @@ function App() {
         className="btn-location"
         onClick={handleGetLocation}
       >
-        Obtener Ubicación
+        LOCATION NOW
       </button>
 
       <div className="geo-positioning-wrapper">
