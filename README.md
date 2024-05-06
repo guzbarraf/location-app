@@ -5,8 +5,8 @@
 ### apiKey
 
 La apiKey para poder obtener el código postal sólo la tendré disponible un par de días para evitar detalles de facturación con Google.\
-Eliminándola a más tardar el día Miércoles 8 de Mayo a medio día.
-
+Eliminándola a más tardar el día Miércoles 8 de Mayo a medio día.\
+La apiKey se las envié por correo para efectos rápidos del test.
 
 ## Available Scripts
 
